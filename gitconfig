@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = subl -n -w  >/dev/null 2>&1
+	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 
 [alias]
   co = checkout
@@ -48,6 +48,6 @@
   mergeoptions = --no-edit
 [user]
 	email = lionnet.ant@gmail.com
-	name = ant lio
+	name = antlio
 [commit]
 	template = /Users/anthony/.git-commit-template.txt
